@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.hero {
+    background: linear-gradient(to right, #7e3d07, #914406);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+}
