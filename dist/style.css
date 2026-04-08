@@ -27,6 +27,7 @@ body {
     transform: scale(1.05);
 }
 
+/* Responsive text */
 @media (max-width: 576px) {
     .hero h1 {
         font-size: 24px;
